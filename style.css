@@ -107,7 +107,7 @@
 }
 
 .contactInfo ul li span {
-  padding-left: 1px;
+  padding-left: 15px;
     color: var(--body-bg-color);
     font-weight: 300;
 }
@@ -247,6 +247,7 @@ i {
  a {
   text-decoration: none;
   color: #fff;
+  
 }  
 
 
