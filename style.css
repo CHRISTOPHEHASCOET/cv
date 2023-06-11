@@ -11,7 +11,10 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    display: block;
+    margin: 0 auto;
+
   }
 
  /* body {
@@ -22,8 +25,8 @@
     min-height: 100vh;
 }  */
 
-/* 
-body {
+
+/* body {
     background: lightblue;
     display: flex;
     align-items: center;
@@ -33,12 +36,13 @@ body {
 
 .container {
     position: relative;
-    width: 100%;
+    width: 100%; 
     max-width: 1000px;
     min-height: 1000px;
     margin: 50px;
     display: grid;
     grid-template-columns: 38% 62%;
+    margin-right: 50rem;
   
 }
 
