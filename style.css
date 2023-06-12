@@ -12,7 +12,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0; 
-    max-width: 1000px;
+
 
   }
 
@@ -67,7 +67,7 @@
 }
 
 .title {
-    color: #fff; 
+    color: var(--body-bg-color); 
     text-transform: uppercase;
     font-size: 0.95em;
     font-weight: 600;
@@ -123,21 +123,21 @@
 }
 
 .title2 {
-    color: #003147;
+    color: var(--title-color);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 5px;
 }
 
 .trainning {
-    color: #003147;
+    color: var(--title-color);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 22px;
 }
 
 .title3 {
-    color: #003147;
+    color: var(--title-color);
     
     margin-top: 5px;
 }
@@ -175,9 +175,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* text-transform: uppercase;
-    font-size: 15px; */
-    /* font-weight: 550; */
+    color: var(--title-color);
+ 
+    
   
 }
   ul li {
@@ -185,14 +185,12 @@
    
 } 
 
-
 .projet { 
     font-size: 15px; 
     text-align: justify;
     padding: 1px;
     list-style: none;
 } 
-
 .color {
     color: var(--bleu-impérial);
 }
