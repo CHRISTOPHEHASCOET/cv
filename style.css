@@ -190,6 +190,7 @@
     text-align: justify;
     padding: 1px;
     list-style: none;
+    color: var(--title-color);
 } 
 .color {
     color: var(--bleu-impérial);
