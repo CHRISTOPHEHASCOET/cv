@@ -5,14 +5,19 @@
     --date-color: #6883bc;
     --bleu-acier: #79a7d3;
     --bleu-impérial: #6883bc;
+    --body: #023750;
   }
 
   body {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0; 
-
+    background-color: var(--body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 
   }
 
@@ -26,12 +31,12 @@
     margin: 50px;
     display: grid;
     grid-template-columns: 40% 60%;
-    
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
 .container .left__Side {
     position: relative;
-    background: var(--bleu-impérial);
+    background-color: var(--bleu-impérial);
     padding: 40px;
 }
 .profileText {
@@ -85,12 +90,12 @@
 
 .contactInfo ul li .icon {
     display: inline-block;
-    width: 30px;
+    width: 20px;
     font-size: 10px;
 }
 
 .contactInfo ul li span {
-  padding-left: 15px;
+    padding-left: 15px;
     color: var(--body-bg-color);
     font-weight: 300;
 }
@@ -112,6 +117,7 @@
 .container .right__Side {
     position: relative;
     padding: 35px;
+    background-color: var(--body-bg-color);
 }
 
 .about {
@@ -225,6 +231,10 @@ i {
     color: var(--title-color);
     font-size: 18px;
     margin: 10px;
+}
+
+.icone {
+    padding-right: 60px;
 }
  a {
   text-decoration: none;
