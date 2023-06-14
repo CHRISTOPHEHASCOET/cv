@@ -30,7 +30,8 @@
     min-height: 1000px; 
     margin: 50px;
     display: grid;
-    grid-template-columns: 40% 60%;
+    /* grid-template-columns: 40% 60%; */
+    grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,12 +101,12 @@
     font-weight: 300;
 }
 
-.text-1 {
+/* .text-1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 3px;
-}
+} */
 
 .contactInfo.skill li {
     color: var(--body-bg-color);
@@ -144,7 +145,7 @@
 
 .title3 {
     color: var(--title-color);
-    
+    font-size: 2rem;
     margin-top: 5px;
 }
 
@@ -152,6 +153,8 @@
     color: var(--bleu-impérial);
     font-size: 14px;
     text-align: justify;
+    padding: 1px;
+   
 }
 
 .about .box {
@@ -174,9 +177,19 @@
 .text {
     min-width: 100px;
     text-align: justify;
-    color: #003147;
+    /* color: #003147; */
 }
-
+.size {
+    /* margin-right: 2rem; */
+    margin-left: -4rem;
+}
+.size1 {
+    margin-left: -1rem;
+}
+.size2 {
+    font-size: 14px;
+    margin-left: -1rem;
+}
 .formation {
     display: flex;
     align-items: center;
@@ -187,7 +200,7 @@
   
 }
   ul li {
-    list-style: none;
+    /* list-style: none; */
    
 } 
 
@@ -195,7 +208,7 @@
     font-size: 15px; 
     text-align: justify;
     padding: 1px;
-    list-style: none;
+    /* list-style: none; */
     color: var(--title-color);
 } 
 .color {
@@ -213,6 +226,10 @@
 .space3 { 
     /* word-spacing: -.1ch; */
     word-spacing: -.4ch;
+}
+.space4 { 
+    /* word-spacing: -.1ch; */
+    word-spacing: -.2ch;
 }
 .interet ul {
     display: flex;
@@ -239,6 +256,7 @@ i {
  a {
   text-decoration: none;
   color: #fff;
+  
 }  
 
 
