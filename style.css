@@ -177,10 +177,9 @@
 .text {
     min-width: 100px;
     text-align: justify;
-    /* color: #003147; */
+   
 }
 .size {
-    /* margin-right: 2rem; */
     margin-left: -4rem;
 }
 .size1 {
@@ -199,16 +198,12 @@
     
   
 }
-  ul li {
-    /* list-style: none; */
-   
-} 
+
 
 .projet { 
     font-size: 15px; 
     text-align: justify;
     padding: 1px;
-    /* list-style: none; */
     color: var(--title-color);
 } 
 .color {
